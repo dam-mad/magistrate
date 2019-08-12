@@ -1,11 +1,12 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import "./style.css"
 
 export const Footer = ({ siteTitle }) => (
   <footer>
-    © {new Date().getFullYear()}, Built with
-    {` `}
-    <a href="https://www.gatsbyjs.org">ghg</a>
+    <h4>
+      made with <span>🤬</span> maddness
+    </h4>
   </footer>
 )

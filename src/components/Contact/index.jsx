@@ -1,10 +1,12 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import "./style.css"
 
 export const Contact = () => {
   return (
     <form method="post" action="#">
+      <h1>Contact our team for inquiries</h1>
       <label>
         Name
         <input type="text" name="name" id="name" />

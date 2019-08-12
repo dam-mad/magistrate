@@ -33,7 +33,8 @@ module.exports = {
         fonts: [
           `limelight`,
           `source sans pro\:300,400,400i,700`, // you can also specify font weights and styles
-          `roboto mono\:100,300,400,700`,
+          `hind\:300,400,700`,
+          `roboto mono\:300,400,700`,
         ],
         display: "swap",
       },

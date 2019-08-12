@@ -13,10 +13,11 @@ export const Hero = () => {
           <h1>M</h1>
         </div>
       </div>
-
-      <h1>SOFTWARE</h1>
-      <h1>+</h1>
-      <h1>DESIGN</h1>
+      <div className="c-hero__container--text">
+        <h2>SOFTWARE</h2>
+        <h2>+</h2>
+        <h2>DESIGN</h2>
+      </div>
     </div>
   )
 }

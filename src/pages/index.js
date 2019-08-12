@@ -24,7 +24,7 @@ const IndexPage = () => (
       ]}
     />
     <Hero />
-    <Contact />
+    {/* <Contact /> */}
   </Layout>
 )
 

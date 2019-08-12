@@ -1,0 +1,24 @@
+form {
+  font-family: "Roboto Mono";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+form h1 {
+  font-size: 20px;
+  padding: 10px;
+  border: white 2px solid;
+  color: white;
+}
+
+label {
+  padding: 10px;
+  margin: 10px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  color: #cac8c8;
+  font-weight: 700;
+}
