@@ -1,5 +1,6 @@
-[dallin]("./src/images/dammad-logo.png")[mikayda] \*\*
-\*\*[dallin: './src/images/dallin.jpeg'][mikayda: './src/images/mikaydapic.jpeg']
+<img src="./src/images/dammad-logo.png" alt="logo" width="100%"/>
+
+<img src="./src/images/dallin.jpeg" alt="dallin" width="45%"/><img src="/src/images/mikaydapic.jpeg" alt="mikayda" width="45%"/>
 
 # DAMMAD.IO
 
