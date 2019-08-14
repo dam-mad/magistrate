@@ -1,3 +1,20 @@
+[dallin]("./src/images/dammad-logo.png")[mikayda] \*\*
+\*\*[dallin: './src/images/dallin.jpeg'][mikayda: './src/images/mikaydapic.jpeg']
+
+# DAMMAD.IO
+
+We made mad apps in damn good time.
+
+## START
+
+If you'd like to clone this simple site, `fork` and `clone` this repo. Then run `npm run dev`.
+
+## BUILD
+
+This app is built with `React.js` utilizing `Gatsby.js`. When ready to build, run `npm run build`.
+
+##
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
@@ -23,7 +40,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
     ```
 
-1.  **Start developing.**
+2.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
@@ -32,7 +49,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     gatsby develop
     ```
 
-1.  **Open the source code and start editing!**
+3.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
 
