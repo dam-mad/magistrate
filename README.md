@@ -3,7 +3,7 @@
 
 # DAMMAD.IO
 
-We made mad apps in damn good time.
+Making DAM good software with MAD design.
 
 ## START
 
