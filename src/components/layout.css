@@ -17,3 +17,8 @@ h2 {
   margin-block-end: 0;
   line-height: 1;
 }
+
+.m-img {
+  display: flex;
+  flex-direction: row;
+}
