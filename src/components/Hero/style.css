@@ -15,7 +15,6 @@
   align-items: center;
   border: 10px white solid;
   min-height: 60%;
-  min-width: 30%;
 }
 
 .c-hero__wrapper--white {
@@ -25,13 +24,14 @@
   align-items: center;
   color: #ff614b;
   background-color: white;
-  width: 95%;
-  height: 95%;
+  height: 100%;
+  padding: 30px;
+  margin: 10px;
 }
 
 .c-hero__wrapper--white h1 {
   font-size: 20vh;
-  padding: 0 40px;
+  padding: 10px 10px;
 }
 
 .c-hero__container--text {
@@ -39,14 +39,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 5vh;
   padding: 20px 0;
+  padding-bottom: 3vh;
+  font-size: 1.3vh;
   margin: 0;
   color: #cac8c8;
 }
 .c-hero__container--text h2 {
   padding: 0;
   margin: 0;
-  font-size: 20px;
-  line-height: 1;
+  line-height: 1.2;
 }
