@@ -8,6 +8,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #ff614b;
+  animation-name: entry;
+  animation-duration: 4s;
+}
+
+@keyframes entry {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: #ff614b;
+  }
 }
 h1,
 h2 {
