@@ -8,11 +8,9 @@ export const Contact = () => {
       <form
         name="contact"
         method="post"
-        data-netlify="true"
         data-netlify-honeypot="bot-field"
         className="c-form__contact"
       >
-        <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="contact" />
         <h1>Contact our team for inquiries</h1>
         <label>
