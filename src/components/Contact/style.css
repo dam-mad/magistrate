@@ -2,7 +2,6 @@ form {
   font-family: "Roboto Mono";
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   height: 40vh;
 }
@@ -15,7 +14,7 @@ form {
 label {
   padding: 10px;
   margin: 10px;
-  width: 70%;
+  width: 60%;
   display: flex;
   justify-content: space-between;
   color: #969595;
@@ -29,10 +28,14 @@ textarea {
 }
 
 .c-button__form {
-  padding: 10px;
+  justify-self: right;
+  width: 50%;
+  padding: 5px 15px;
   margin: 10px;
+  border: none;
   border-radius: 2px;
-  background-color: #969595;
+  background-color: grey;
+  color: white;
 }
 .c-button__form:hover {
   background-color: #ff614b;

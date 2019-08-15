@@ -8,6 +8,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #ff614b;
+  animation-name: entry-body;
+  animation-duration: 4s;
+}
+
+@keyframes entry-body {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: #ff614b;
+  }
 }
 h1,
 h2 {
@@ -26,4 +37,7 @@ main {
 }
 button {
   font-family: "Roboto Mono", sans-serif;
+}
+button:hover {
+  cursor: pointer;
 }

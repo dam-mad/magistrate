@@ -1,13 +1,22 @@
 .c-button__contact {
   background-color: grey;
   color: white;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 15px;
+  margin: 10px;
+}
+.c-button__contact:hover {
+  background-color: #cac8c8;
+  color: black;
 }
 .c-button__close {
   border: none;
   font-size: 20px;
-  margin: 20px;
   width: auto;
   text-align: right;
+  outline: none;
 }
 .c-button__container {
   width: 100%;
