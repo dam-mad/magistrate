@@ -8,11 +8,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #ff614b;
-  animation-name: entry;
+  animation-name: entry-body;
   animation-duration: 4s;
 }
 
-@keyframes entry {
+@keyframes entry-body {
   from {
     background-color: black;
   }
