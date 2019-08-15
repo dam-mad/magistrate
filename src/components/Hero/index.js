@@ -6,11 +6,11 @@ export const Hero = () => {
     <div className="c-hero__container">
       <div className="c-hero__wrapper--orange">
         <div className="c-hero__wrapper--white">
-          <a href="https://github.com/dallin-r-parker">
+          <a href="https://github.com/dallin-r-parker" target="_blank">
             <h1>D</h1>
           </a>
           <h3>DAM-MAD</h3>
-          <a href="https://github.com/kdabug">
+          <a href="https://github.com/kdabug" target="_blank">
             <h1>M</h1>
           </a>
         </div>
