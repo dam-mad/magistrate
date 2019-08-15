@@ -1,30 +1,37 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 import "./style.css"
+import Modal from "../Modal"
 
 export const Contact = () => {
   return (
-    <form method="post" action="#">
-      <h1>Contact our team for inquiries</h1>
-      <label>
-        Name
-        <input type="text" name="name" id="name" />
-      </label>
-      <label>
-        Email
-        <input type="email" name="email" id="email" />
-      </label>
-      <label>
-        Subject
-        <input type="text" name="subject" id="subject" />
-      </label>
-      <label>
-        Message
-        <textarea name="message" id="message" rows="5" />
-      </label>
-      <button type="submit">Send</button>
-      <input type="reset" value="Clear" />
-    </form>
+    <Modal>
+      <form
+        name="contact"
+        method="post"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        className="c-form__contact"
+      >
+        <input type="hidden" name="bot-field" />
+        <input type="hidden" name="form-name" value="contact" />
+        <h1>Contact our team for inquiries</h1>
+        <label>
+          Name
+          <input type="text" name="name" id="name" />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" id="email" />
+        </label>
+        <label>
+          Message
+          <textarea name="message" id="message" rows="5" />
+        </label>
+
+        <button className="c-button__form" type="submit">
+          Send
+        </button>
+      </form>
+    </Modal>
   )
 }

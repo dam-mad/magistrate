@@ -1,0 +1,15 @@
+.c-button__contact {
+  background-color: grey;
+  color: white;
+}
+.c-button__close {
+  border: none;
+  font-size: 20px;
+  margin: 20px;
+  width: auto;
+  text-align: right;
+}
+.c-button__container {
+  width: 100%;
+  text-align: right;
+}
