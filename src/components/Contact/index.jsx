@@ -8,6 +8,7 @@ export const Contact = () => {
       <form
         name="contact"
         method="post"
+        netlify
         data-netlify-honeypot="bot-field"
         className="c-form__contact"
       >
