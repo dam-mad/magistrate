@@ -38,3 +38,6 @@ main {
 button {
   font-family: "Roboto Mono", sans-serif;
 }
+button:hover {
+  cursor: pointer;
+}
